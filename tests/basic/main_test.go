@@ -26,6 +26,6 @@ func TestRequire(t *testing.T) {
 	fmt.Println("Not executing")
 }
 
-// go tool cover -html=coverage -o coverage.html
+// go test -coverprofile=coverage
 // go tool cover -html=coverage -o coverage.html
 // Mac open .\coverage.html  - Wins start .\coverage.html
