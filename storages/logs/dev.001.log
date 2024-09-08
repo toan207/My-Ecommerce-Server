@@ -1,0 +1,4 @@
+{"level":"INFO","Time":"2024-09-08T23:56:47.886+0700","caller":"initialize/run.go:14","msg":"Config Log Success","success":"true"}
+{"level":"INFO","Time":"2024-09-08T23:57:31.109+0700","caller":"initialize/run.go:14","msg":"Config Log Success","success":"true"}
+{"level":"INFO","Time":"2024-09-08T23:58:33.433+0700","caller":"initialize/run.go:14","msg":"Config Log Success","success":"true"}
+{"level":"INFO","Time":"2024-09-08T23:59:30.528+0700","caller":"initialize/run.go:14","msg":"Config Log Success","success":"true"}

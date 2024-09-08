@@ -19,11 +19,12 @@ func LoadConfig() {
 	}
 
 	fmt.Println("Server Port::", viper.GetInt("server.port"))
+	// fmt.Println("Log File Name::", viper.GetString("log.file_log_name"))
 
 	if err := viper.Unmarshal(&global.Config); err != nil {
 		fmt.Printf("unable to decode configuration %v", err)
 	}
 
-	// fmt.Println("Config port::", global.Config.Server)
+	// fmt.Println("Config Logger::", global.Config.Logger)
 	// fmt.Println("Config db::", global.Config.Databases)
 }
